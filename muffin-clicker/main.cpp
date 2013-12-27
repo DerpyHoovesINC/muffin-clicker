@@ -1,16 +1,28 @@
 #include <iostream>
 #include <Windows.h>
-
-using namespace std;
+#include <GLFW\glfw3.h>
 
 int main()
 {
-	cout << "Hello World" << endl;
+	GLFWwindow* window;
 
+	if (!glfwInit()) return -1;
+	window = glfwCreateWindow(800, 480, "Muffin Clicker", NULL, NULL);
+	if (!window)
+	{
+		glfwTerminate();
+		return -1;
+	}
 
+	glfwMakeContextCurrent(window);
 
+	while (!glfwWindowShouldClose(window))
+	{
+		
+		glfwSwapBuffers(window);
+		glfwPollEvents();
+	}
 
-	system("PAUSE");
-
+	glfwTerminate();
 	return 0;
 }

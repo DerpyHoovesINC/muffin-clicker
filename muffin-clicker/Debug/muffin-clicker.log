@@ -1,14 +1,14 @@
-﻿Der Buildvorgang wurde am 27.12.2013 22:59:25 gestartet.
+﻿Der Buildvorgang wurde am 27.12.2013 23:19:24 gestartet.
      1>Projekt "D:\GitRepos\muffin-clicker\muffin-clicker\muffin-clicker.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\GitRepos\muffin-clicker\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.lib" /MACHINE:X86 Debug\main.obj
-         LINK : D:\GitRepos\muffin-clicker\Debug\muffin-clicker.exe wurde nicht gefunden oder beim letzten inkrementellen Linkvorgang nicht erstellt; vollständiger Link wird durchgeführt.
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\GitRepos\muffin-clicker\lib-msvc110" glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : warning LNK4098: Standardbibliothek "MSVCRT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
          muffin-clicker.vcxproj -> D:\GitRepos\muffin-clicker\Debug\muffin-clicker.exe
      1>Die Erstellung des Projekts "D:\GitRepos\muffin-clicker\muffin-clicker\muffin-clicker.vcxproj" ist abgeschlossen, Build Ziel(e).
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:00:01.54
+Verstrichene Zeit 00:00:01.36
