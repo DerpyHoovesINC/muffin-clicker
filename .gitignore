@@ -31,4 +31,4 @@ _ReSharper*/
 
 *.sdf
 *.suo
-*vcxproj.user
+*.vcxproj.user
