@@ -39,19 +39,17 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\GitRepos\muffin-clicker\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\GitRepos\muffin-clicker\lib-msvc110;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\GitRepos\muffin-clicker\muffin-clicker\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\GitRepos\muffin-clicker\muffin-clicker\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>D:\GitRepos\muffin-clicker\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\GitRepos\muffin-clicker\lib-msvc110;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -68,19 +66,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="image_DXT.c" />
-    <ClCompile Include="image_helper.c" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SOIL.c" />
-    <ClCompile Include="stb_image_aug.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="image_DXT.h" />
-    <ClInclude Include="image_helper.h" />
-    <ClInclude Include="SOIL.h" />
-    <ClInclude Include="stbi_DDS_aug.h" />
-    <ClInclude Include="stbi_DDS_aug_c.h" />
-    <ClInclude Include="stb_image_aug.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
