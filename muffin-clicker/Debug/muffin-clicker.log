@@ -1,9 +1,13 @@
-﻿Der Buildvorgang wurde am 28.12.2013 01:11:11 gestartet.
+﻿Der Buildvorgang wurde am 28.12.2013 01:34:21 gestartet.
      1>Projekt "D:\GitRepos\muffin-clicker\muffin-clicker\muffin-clicker.vcxproj" auf Knoten "2", Build Ziel(e).
-     1>Link:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\GitRepos\muffin-clicker\muffin-clicker\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\GitRepos\muffin-clicker\muffin-clicker\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.lib" /MACHINE:X86 Debug\main.obj
          muffin-clicker.vcxproj -> D:\GitRepos\muffin-clicker\Debug\muffin-clicker.exe
      1>Die Erstellung des Projekts "D:\GitRepos\muffin-clicker\muffin-clicker\muffin-clicker.vcxproj" ist abgeschlossen, Build Ziel(e).
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:00:00.04
+Verstrichene Zeit 00:00:01.87
