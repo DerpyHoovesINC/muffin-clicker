@@ -18,5 +18,37 @@
     <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="image_DXT.c">
+      <Filter>Headerdateien</Filter>
+    </ClCompile>
+    <ClCompile Include="image_helper.c">
+      <Filter>Headerdateien</Filter>
+    </ClCompile>
+    <ClCompile Include="SOIL.c">
+      <Filter>Headerdateien</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_aug.c">
+      <Filter>Headerdateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="image_DXT.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="image_helper.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="SOIL.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_aug.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_DDS_aug.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi_DDS_aug_c.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

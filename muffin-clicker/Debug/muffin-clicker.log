@@ -1,14 +1,149 @@
-﻿Der Buildvorgang wurde am 27.12.2013 23:19:24 gestartet.
+﻿Der Buildvorgang wurde am 28.12.2013 00:19:14 gestartet.
      1>Projekt "D:\GitRepos\muffin-clicker\muffin-clicker\muffin-clicker.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\GitRepos\muffin-clicker\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\GitRepos\muffin-clicker\lib-msvc110" glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitRepos\muffin-clicker\Debug\muffin-clicker.lib" /MACHINE:X86 Debug\main.obj
-     1>LINK : warning LNK4098: Standardbibliothek "MSVCRT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
-         muffin-clicker.vcxproj -> D:\GitRepos\muffin-clicker\Debug\muffin-clicker.exe
-     1>Die Erstellung des Projekts "D:\GitRepos\muffin-clicker\muffin-clicker\muffin-clicker.vcxproj" ist abgeschlossen, Build Ziel(e).
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\GitRepos\muffin-clicker\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt image_DXT.c image_helper.c SOIL.c stb_image_aug.c
+         stb_image_aug.c
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(177): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(251): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(303): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(1557): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(2394): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(2709): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(2995): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(3209): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(3548): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stb_image_aug.c(3644): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stbi_dds_aug_c.h(362): warning C4018: '>': Konflikt zwischen 'signed' und 'unsigned'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stbi_dds_aug_c.h(366): warning C4018: '>': Konflikt zwischen 'signed' und 'unsigned'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stbi_dds_aug_c.h(390): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stbi_dds_aug_c.h(427): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\stbi_dds_aug_c.h(498): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+         SOIL.c
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1157): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1157): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1157): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glAccum'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1157): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1157): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1158): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1158): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1158): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glAlphaFunc'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1158): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1158): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1159): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1159): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1159): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glAreTexturesResident'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1159): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1159): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1160): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1160): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1160): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glArrayElement'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1160): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1160): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1161): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1161): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1161): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glBegin'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1161): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1161): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1162): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1162): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1162): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glBindTexture'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1162): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1162): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1163): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1163): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1163): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glBitmap'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1163): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1163): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1164): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1164): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1164): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glBlendFunc'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1164): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1164): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1165): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1165): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1165): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glCallList'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1165): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1165): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1166): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1166): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1166): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glCallLists'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1166): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1166): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1167): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1167): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1167): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glClear'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1167): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1167): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1168): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1168): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1168): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glClearAccum'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1168): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1168): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1169): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1169): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1169): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glClearColor'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1169): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1169): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1170): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1170): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1170): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glClearDepth'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1170): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1170): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1171): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1171): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1171): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glClearIndex'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1171): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1171): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1172): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1172): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1172): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glClearStencil'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1172): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1172): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1173): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1173): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1173): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glClipPlane'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1173): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1173): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1174): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1174): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1174): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glColor3b'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1174): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1174): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1175): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1175): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1175): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glColor3bv'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1175): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1175): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1176): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1176): error C2085: 'APIENTRY': Nicht in der formalen Parameterliste enthalten
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1176): error C2146: Syntaxfehler: Fehlendes ',' vor Bezeichner 'glColor3d'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1176): error C2143: Syntaxfehler: Es fehlt ';' vor '('
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1176): error C2059: Syntaxfehler: ')'
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1177): error C2054: Nach 'WINGDIAPI' muss '(' folgen
+     1>c:\program files (x86)\windows kits\8.0\include\um\gl\gl.h(1177): fatal error C1003: Mehr als 100 Fehler gefunden; Kompilierung wird abgebrochen.
+         image_helper.c
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\image_helper.c(325): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\image_helper.c(366): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\image_helper.c(373): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\image_helper.c(415): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\image_helper.c(422): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+         image_DXT.c
+     1>d:\gitrepos\muffin-clicker\muffin-clicker\image_dxt.c(92): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+         Code wird generiert...
+     1>Die Erstellung des Projekts "D:\GitRepos\muffin-clicker\muffin-clicker\muffin-clicker.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
 
-Build erfolgreich.
+Fehler beim Buildvorgang.
 
-Verstrichene Zeit 00:00:01.36
+Verstrichene Zeit 00:00:00.33
